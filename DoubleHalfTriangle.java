@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class DoubleHalfTriangle {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the row number which get doubles in Diamond shape Triangle : ");
         int n = sc.nextInt();
 
         //Increasing part
