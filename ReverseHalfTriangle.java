@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class ReverseHalfTriangle {
     public static void main(String[] args) {
+        System.out.print("Enter the row number in Triangle : ");
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
