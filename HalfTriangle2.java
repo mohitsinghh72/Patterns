@@ -1,10 +1,9 @@
-package JAVA_BASICS;
-
 import java.util.Scanner;
 
 public class HalfTriangle2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the number of rows you want in Triangle : ");
         int n = sc.nextInt();
 
         for(int i = 0;i<n;i++){
